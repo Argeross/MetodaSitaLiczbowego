@@ -130,7 +130,7 @@ def combine_relations(n, relations, base): # Tworzenie kongruencji kwadratowej
     
     return False
 
-def rational_sieve(n, B, primeBase=[]):
+def rational_sieve(n, B, primeBase=[]): # Metoda  sita liczbowego
 
     if primeBase == []:
         primeBase = factor_base(B)
@@ -164,6 +164,7 @@ def rational_sieve(n, B, primeBase=[]):
 
 if __name__ == "__main__":
     # W przypadku zmiany testów, sprawdzić sys.maxsize dla maksymalnej możliwej liczby obsługiwanej przez Python na danym komputerze
+    # Test -> (Liczba do faktoryzacji, czynnik B)
     tests = [(23423454, 1000), (45234523423, 3600), 
     (5523452342346, 30000), (7523452342312, 30000), (8523452343241, 30000)]
     # Poprawność testów sprawdzona z Wolframalpha
