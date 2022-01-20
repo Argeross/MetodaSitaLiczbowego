@@ -5,4 +5,4 @@ Repozytorium zawiera materiały dydaktyczne dotyczące faktoryzacji liczb całko
 W skład materiałów wchodzi:
 - omówienie teoretyczne algorytmu,
 - implementacja algorytmu w języku Python,
-- zadania związane z algorytmem w postaci jupyter notebook.
+- zadania związane z implementacją algorytmu w postaci jupyter notebook.
